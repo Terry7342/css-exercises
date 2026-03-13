@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+.font
+{
+    font-size: 28px;
+    font-family: helvetica, 'Times New Roman', sans-serif
+}
+#greedy
+{
+    background-color: black; color:
+     white;
+}
+#steamy
+{
+    background-color: yellow;
+}
