@@ -5,11 +5,15 @@ body {
 img {
   width: 100px;
   height: 100px;
+  flex-grow: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex; 
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +27,38 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.plants{
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+justify-content: center;
+}
+.barberry{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  height: auto;
+}
+.chilli{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  height: auto
+}
+.pepper{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  height: auto
+}
+.saffron{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  height: auto
 }
